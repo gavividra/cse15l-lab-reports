@@ -21,5 +21,5 @@ cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
 cat /home/linux/ieng6/cs15lsp23/public/hello.txt
 ````
 
-Here is `$ ssh ls -lat` result on the remote PC: ![Image](NAME.jpg)
-Here is `$ ssh ls -lat` result on my personal PC: ![Image](NAME.jpg)
+Here is `$ ssh ls -lat` result on the remote PC: ![Image](ls -lat remote.png)
+Here is `$ ssh ls -lat` result on my personal PC: ![Image](ls -lat personal.png)
