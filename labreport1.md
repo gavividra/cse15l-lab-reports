@@ -1,3 +1,5 @@
+Lab Report 1 Resubmission:
+
 ![Installing VScode](https://user-images.githubusercontent.com/110568727/230855888-73dcdb26-2308-44b4-8d88-2d2fa79c5081.jpg)
 
 The picture above represents the third step of my lab which was installing VS Code. I already had VS Code installed, but normally you would need to go to their website https://code.visualstudio.com/ and download it from there.
