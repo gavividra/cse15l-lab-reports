@@ -104,5 +104,5 @@ The code needed to instantiate a temp array that will deep copy the values of th
 
 Part 3:
 - 
-
+Over these past 2 weeks I learned a lot about the navigation of my computer. I have always had diffiuculty using github and getting different files or applications to work. I think these two labs helped me learn a lot about running Junit and working with github. I also learned a lot about servers that I never knew before this class. I now know how to make server specific changes using different ports that allow interaction to play a part in the server content. I think this will come in very useful in the future, especially if I get into website design.
 
