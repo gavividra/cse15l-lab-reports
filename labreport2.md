@@ -37,15 +37,13 @@ public class StringServer {
 }
 ````
 
-![](firstline.png)
-Which methods in your code are called?
-What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+![](FirstLine.png)
+The handleRequest and main method are both called when making this server that adds strings. 
+The main method runs after `java StringServer 4000` is called as it checks to make sure the port number 4000 is within range and available. If so, it then creates a new server using this port number with the line of code `Server.start(port, new Handler())`.
+The handleRequest method runs to make sure the line `/add-message?s=` is called after the server. After detecting this line is called, it then returns the following as a string. This can be seen on the server in the picture above.
 
-![](secondline.png)
-Which methods in your code are called?
-What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+![](SecondLine.png)
+In this second picture, another message is saved, and it is added to the initial messages. This is because the values are saved to the String result and are seperated by a next line function (`\n`): `result += parameters[1] + "\n"`
 
 
 Part 2:
