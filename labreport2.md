@@ -99,6 +99,9 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ````
+The code needed to instantiate a temp array that will deep copy the values of the array, then make the old array equal to the new array in reverse order. It didn't work initially because the array was getting overwritten at the halfway point.
+
+
 Part 3:
 - 
 
