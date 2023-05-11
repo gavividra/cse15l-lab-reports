@@ -1,12 +1,12 @@
 I am going to use the find command in 4 interesting ways:
 
 1) Find files using name in current directory
-`find . -name find-results.txt`
+```find . -name find-results.txt```
 The result you get is:
-`./find-results.txt`
+```./find-results.txt```
 
 2) Find all files ending with `.txt` in chosen directory
-`find ./technical/biomed -name "*.txt"`
+```find ./technical/biomed -name "*.txt"```
 The second input is the directory
 
 The result you get is:
@@ -868,7 +868,7 @@ The result you get is:
 ```
 
 4)Print All files in a given directory (in 911report)
-`find ./technical/911report -type f`
+```find ./technical/911report -type f```
 The result you get is:
 ```
 ./technical/911report/chapter-13.4.txt
