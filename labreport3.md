@@ -1,10 +1,12 @@
 I am going to use the find command in 4 interesting ways:
 
-1) Find files using name in current directory ```find . -name find-results.txt```
+1) Find files using name in current directory `find . -name find-results.txt`
 
 The result you get is:
 
-```./find-results.txt```
+```
+./find-results.txt
+```
 
 2) Find all files ending with `.txt` in chosen directory
 ```find ./technical/biomed -name "*.txt"```
