@@ -2,13 +2,16 @@
 ## Part 1
 ### The following is a proper request for help
 **What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?**
+
 I am using a vs code on a mac pc.
 
 **Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.**
+
 I am seeing that the expected output of the fibonacci function within my `lab5.java` file is not equal to the actual output for one of my tests. I believe that this problem is because my code is producing an output of the n+1th fibonacci number. The following is the output I recieved when running bash.
 ![Image](lab5output.png)
 
 **Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.**
+
 Looking at my code the different test cases show that my code ends up running the first 2 test cases correctly where it is asked to calculate the 1st fibonacci number and a negative number in the sequence. However, when asked to run a number n greater than 1, the fibonacci sequence seems to output a the n+1th number in the fibonacci sequence. The following is my code, test cases, and my `.sh` script used to compile my code.
 ![Image](lab5.java.png)
 ![Image](lab5test.png)
